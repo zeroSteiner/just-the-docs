@@ -1,0 +1,16 @@
+---
+info:
+  title: Just The Docs
+  description: A modern, high customizable, responsive Jekyll theme for documention
+    with built-in search.
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/just-the-docs
+  x-cortex-tag: just-the-docs
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: metasploit
+openapi: 3.0.1
+servers:
+- url: "/"
