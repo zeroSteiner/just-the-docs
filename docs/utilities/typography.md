@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Typography
 parent: Utilities
 ---
@@ -17,7 +16,7 @@ parent: Utilities
 
 ## Font size
 
-Use the `.fs-1` - `.fs-10` to set an explicit font-size.
+Use the `.fs-1` - `.fs-10` to set an explicit `font-size`.
 
 | Class   | Small screen size `font-size`  | Large screen size `font-size` |
 |:--------|:-------------------------------|:------------------------------|
@@ -81,7 +80,7 @@ Font size 10
 
 ## Font weight
 
-Use the `.fw-300` - `.fw-700` to set an explicit font-size.
+Use the `.fw-300` - `.fw-700` to set an explicit `font-weight`.
 
 <div class="code-example" markdown="1">
 Font weight 300

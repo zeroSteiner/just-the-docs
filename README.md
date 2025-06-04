@@ -5,7 +5,7 @@
 <p align="center">
     <h1 align="center">Just the Docs</h1>
     <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.github.io/just-the-docs/">See it in action!</a></strong></p>
+    <p align="center"><strong><a href="https://just-the-docs.com/">See it in action!</a></strong></p>
     <br><br><br>
 </p>
 
@@ -32,7 +32,7 @@ More specifically, the created site:
 
 Other than that, you're free to customize sites that you create with the template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
 
-### Use RubyGems
+### Use as a Ruby Gem
 
 Alternatively, you can install the theme as a Ruby Gem, without creating a new site.
 
@@ -48,17 +48,11 @@ And add this line to your Jekyll site's `_config.yml`:
 theme: just-the-docs
 ```
 
-And then execute:
+And then install all relevant dependencies:
 
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install just-the-docs
-
-Alternatively, you can run it inside Docker while developing your site
-
-    $ docker-compose up
+```shell
+$ bundle
+```
 
 ## Usage
 
@@ -102,7 +96,7 @@ The theme is available as open source under the terms of the [MIT License](http:
 
 [Jekyll]: https://jekyllrb.com
 [Just the Docs Template]: https://just-the-docs.github.io/just-the-docs-template/
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
+[Just the Docs]: https://just-the-docs.com
 [Just the Docs repo]: https://github.com/just-the-docs/just-the-docs
 [GitHub Pages]: https://pages.github.com/
 [Template README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
